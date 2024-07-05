@@ -16,6 +16,7 @@ body{
     width:800px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(240, 218, 240);
 }
 
 #grid-container {
@@ -25,30 +26,31 @@ body{
     height: 672px; 
 }
 
-.hover {
-    background-color: rgb(255, 224, 24);
-}
 
 #dimensions-button{
     display: flex;
     height: 30px;
+    width:180px;
     justify-content: center;
     align-items: center;
     font-weight: 800;
+    margin: 90px 0 0 0;
 }
 
 #left-hand-elements {
     width:350px;
-    height: 850px;
+    margin: 0;
+    height: auto;
     display:flex;
-    margin: 90px 0 0 0;
     justify-content: center;
-    
+    background-color: rgb(242, 89, 179);
+    border-right: 10px double rgb(44, 37, 41);
 }
 
 #right-hand-elements{
     display:flex;
     width:350px;
-    height: 850px;
-
+    height: auto;
+    background-color: rgb(242, 89, 179);
+    border-left: 10px double rgb(44, 37, 41);
 }
